@@ -79,5 +79,7 @@ persons.forEach(function (val, idx) {
   if (idx == persons.length - 1) {
     tag += '</ul>';
   }
+});
 
-})
+console.log(tag);
+document.write(tag)
