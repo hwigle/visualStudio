@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="dom/practice.js"></script>
+  <script src="dom/practice4.js"></script>
 </head>
+
 <body>
   <h3 id="first">git 연습.</h3>
   <h3 id="second">변경이 됐습니다.</h3>
@@ -18,8 +20,8 @@
   <li class="first">Apple</li>
   <input type="text" name="" id="userName" value="Hong">
   <input type="text" name="" id="userAge" value="20">
-  <button>추가</button>
-  <table>
+  <button id="addBtn">추가</button>  
+  <!-- <table>
     <tr>
       <td>홍길동</td>
       <td>20</td>
@@ -27,6 +29,43 @@
   </table>
   <div id="show">
     <div><span>홍길동</span><span>20</span></div>
+  </div> -->
+  <!-- <div id="show">
+    <script>
+      let ulTag = document.createElement('ul'); // element Node
+      let liTag = document.createElement('li');
+      liTag.innerHTML = '아이스아메리카노';
+      ulTag.appendChild(liTag);
+      liTag = document.createElement('li');
+      liTag.innerHTML = '까페라떼';
+      ulTag.appendChild(liTag);
+      liTag = document.createElement('li');
+      liTag.innerHTML = '레몬에이드';
+      ulTag.appendChild(liTag);
+      
+      console.log(ulTag);
+
+      let divShow = document.getElementById('show');
+      divShow.appendChild(ulTag);
+    </script>
+  </div> -->
+  <div id="show">
+    <!-- <table border="1">
+      <thead>
+        <tr>
+          <th>이름</th><th>나이</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="101">
+          <td>홍길동</td><td>20살</td>
+        </tr>
+        <tr id="102">
+          <td>김길동</td><td>22살</td>
+        </tr>
+      </tbody>
+    </table> -->
   </div>
 </body>
+
 </html>
