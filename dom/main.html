@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dom/main.html</title>
+  <title>dom/main.html</title>
 </head>
 
 <body>
@@ -46,8 +46,7 @@
                ]};
         // data 반복적으로 makeTr() => id="body" appendChild();        
         data.forEach(element => {
-          document.getElementById('body').appendChild(makeTr(element));
-          
+          document.getElementById('body').appendChild(makeTr(element));          
         });
 
     console.log(document.forms['frm'].elements['uid'].value);
